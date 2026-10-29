@@ -1,0 +1,21 @@
+cff-version: 1.2.0
+message: "Please cite this software and the exact commit used to reproduce a computation."
+type: software
+title: "Uniformly dense tricyclic subdivisions: counts and certificates — verification code"
+authors:
+  - family-names: "Gałązka"
+    given-names: "Marek"
+    affiliation: "Adam Mickiewicz University, Poznań, Poland"
+  - family-names: "Wdowicka"
+    given-names: "Hanna"
+    affiliation: "Poznań University of Economics and Business, Poznań, Poland"
+repository-code: "https://github.com/mgalazka84/tricyclic-uniform-density-code"
+url: "https://github.com/mgalazka84/tricyclic-uniform-density-code"
+license: MIT
+keywords:
+  - uniform density
+  - tricyclic graphs
+  - matroids
+  - graph subdivisions
+  - quasipolynomials
+abstract: "Exact verification, constructive density certificates, and symbolic derivation of twelve counting polynomials for uniformly dense labelled tricyclic subdivisions."

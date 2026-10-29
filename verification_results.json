@@ -20,31 +20,62 @@
     "subset_comparisons": 1587378,
     "total_graphs": 6286
   },
+  "multigraphs": {
+    "records": [
+      {
+        "vertices": 2,
+        "connected_multigraphs": 1,
+        "with_parallel_edges": 1,
+        "uniformly_dense": 1
+      },
+      {
+        "vertices": 3,
+        "connected_multigraphs": 18,
+        "with_parallel_edges": 18,
+        "uniformly_dense": 3
+      },
+      {
+        "vertices": 4,
+        "connected_multigraphs": 341,
+        "with_parallel_edges": 340,
+        "uniformly_dense": 101
+      },
+      {
+        "vertices": 5,
+        "connected_multigraphs": 7180,
+        "with_parallel_edges": 7060,
+        "uniformly_dense": 100
+      }
+    ],
+    "subset_comparisons": 933916,
+    "total_multigraphs": 7540,
+    "convention": "labelled vertices; one input per edge-multiplicity vector"
+  },
   "kernels": {
     "A": {
-      "length_assignments": 625,
-      "uniformly_dense": 225
+      "length_assignments": 1296,
+      "uniformly_dense": 416
     },
     "B": {
-      "length_assignments": 3125,
-      "uniformly_dense": 1411
+      "length_assignments": 7776,
+      "uniformly_dense": 3230
     },
     "C": {
-      "length_assignments": 15625,
-      "uniformly_dense": 3219
+      "length_assignments": 46656,
+      "uniformly_dense": 9043
     },
     "D": {
-      "length_assignments": 15625,
-      "uniformly_dense": 12648
+      "length_assignments": 46656,
+      "uniformly_dense": 36144
     }
   },
   "counts": {
-    "max_total": 30,
+    "max_total": 33,
     "assignments": {
-      "A": 27405,
-      "B": 142506,
-      "C": 593775,
-      "D": 593775
+      "A": 40920,
+      "B": 237336,
+      "C": 1107568,
+      "D": 1107568
     },
     "counts": [
       {
@@ -198,6 +229,21 @@
         "count": 282
       },
       {
+        "kernel": "A",
+        "total_length": 31,
+        "count": 220
+      },
+      {
+        "kernel": "A",
+        "total_length": 32,
+        "count": 165
+      },
+      {
+        "kernel": "A",
+        "total_length": 33,
+        "count": 360
+      },
+      {
         "kernel": "B",
         "total_length": 1,
         "count": 0
@@ -346,6 +392,21 @@
         "kernel": "B",
         "total_length": 30,
         "count": 3099
+      },
+      {
+        "kernel": "B",
+        "total_length": 31,
+        "count": 2310
+      },
+      {
+        "kernel": "B",
+        "total_length": 32,
+        "count": 2530
+      },
+      {
+        "kernel": "B",
+        "total_length": 33,
+        "count": 4415
       },
       {
         "kernel": "C",
@@ -498,6 +559,21 @@
         "count": 11703
       },
       {
+        "kernel": "C",
+        "total_length": 31,
+        "count": 8052
+      },
+      {
+        "kernel": "C",
+        "total_length": 32,
+        "count": 10362
+      },
+      {
+        "kernel": "C",
+        "total_length": 33,
+        "count": 18652
+      },
+      {
         "kernel": "D",
         "total_length": 1,
         "count": 0
@@ -646,8 +722,166 @@
         "kernel": "D",
         "total_length": 30,
         "count": 36933
+      },
+      {
+        "kernel": "D",
+        "total_length": 31,
+        "count": 34254
+      },
+      {
+        "kernel": "D",
+        "total_length": 32,
+        "count": 39699
+      },
+      {
+        "kernel": "D",
+        "total_length": 33,
+        "count": 59614
       }
     ]
+  },
+  "quasipolynomials": {
+    "symbolic_polynomial_identities": 12,
+    "max_q": 100,
+    "residue_classes": [
+      0,
+      1,
+      2
+    ],
+    "comparisons": 1200,
+    "numerator_coefficients_ascending": {
+      "A": [
+        [
+          6,
+          [
+            -18,
+            11,
+            6,
+            1
+          ]
+        ],
+        [
+          6,
+          [
+            0,
+            2,
+            3,
+            1
+          ]
+        ],
+        [
+          6,
+          [
+            0,
+            -1,
+            0,
+            1
+          ]
+        ]
+      ],
+      "B": [
+        [
+          24,
+          [
+            96,
+            -122,
+            -5,
+            26,
+            5
+          ]
+        ],
+        [
+          24,
+          [
+            0,
+            -6,
+            -5,
+            6,
+            5
+          ]
+        ],
+        [
+          24,
+          [
+            0,
+            2,
+            7,
+            10,
+            5
+          ]
+        ]
+      ],
+      "C": [
+        [
+          120,
+          [
+            -480,
+            834,
+            -285,
+            -125,
+            45,
+            11
+          ]
+        ],
+        [
+          120,
+          [
+            0,
+            24,
+            10,
+            -35,
+            -10,
+            11
+          ]
+        ],
+        [
+          120,
+          [
+            0,
+            -6,
+            -15,
+            -5,
+            15,
+            11
+          ]
+        ]
+      ],
+      "D": [
+        [
+          60,
+          [
+            -360,
+            634,
+            -150,
+            -175,
+            30,
+            21
+          ]
+        ],
+        [
+          20,
+          [
+            0,
+            8,
+            0,
+            -15,
+            0,
+            7
+          ]
+        ],
+        [
+          20,
+          [
+            0,
+            -2,
+            -10,
+            -5,
+            10,
+            7
+          ]
+        ]
+      ]
+    }
   },
   "counterexample": {
     "vertices": 12,
@@ -659,6 +893,10 @@
     "witness_cycle_rank": 2,
     "two_connected": true
   },
-  "elapsed_seconds": 3.417,
-  "source_sha256": "ba78527eb007c905df524316ffeb098926525425c4aac00202c3d9e51a84c70e"
+  "elapsed_seconds": 5.712,
+  "source_sha256": "49e1cf69b5529c7c585a6bb9916186302da69040bb94f2df5d516f68b0ac5163",
+  "source_sha256_by_file": {
+    "verify.py": "49e1cf69b5529c7c585a6bb9916186302da69040bb94f2df5d516f68b0ac5163",
+    "derive_quasipolynomials.py": "0201b7bc79eece2bfb9fc8b6ec4c944d877423570961317af3dffb0f881d7ce6"
+  }
 }
