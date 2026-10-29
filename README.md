@@ -49,12 +49,11 @@ Graphs are finite, undirected, and loopless. Kernel edges are labelled and may b
 - `code/derive_quasipolynomials.py`: exact symbolic derivation with Python's standard-library rational arithmetic.
 - `verification_results.json`: executed reference results and script checksums.
 - `CITATION.cff`: software citation metadata.
-- `.zenodo.json`: metadata prepared for a Zenodo software archive.
 - `LICENSE`: MIT license.
 
 Exhaustive verification is intentionally limited to the stated ranges. It is separate from the linear-time recognition algorithm, whose input contract is a connected loopless tricyclic graph. All comparisons use exact integers or rational numbers.
 
-The manuscript and private research notes are not part of this code repository. A Zenodo DOI has not yet been assigned; the metadata file alone is not an archived release.
+The manuscript and private research notes are not part of this code repository.
 
 ## License
 
