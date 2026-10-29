@@ -14,7 +14,7 @@ From the repository root:
 python3 code/verify.py --output verification_results.json
 ```
 
-A successful run prints `passed` for `graphs`, `multigraphs`, `kernels`, `counts`, `symbolic`, and `counterexample`, then writes the results as JSON. A failed comparison raises an assertion error. Run Python normally, without `-O`, which disables assertions.
+A successful run prints `passed` for `graphs`, `multigraphs`, `kernels`, `counts`, `quasipolynomials`, and `counterexample`, then writes the results as JSON. A failed comparison raises an assertion error. Run Python normally, without `-O`, which disables assertions.
 
 The symbolic derivation can also be run separately:
 
