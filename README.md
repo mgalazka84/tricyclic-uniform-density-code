@@ -30,6 +30,10 @@ The committed `verification_results.json` is an executed reference run. Its math
 
 Run `python3 code/verify_extensions.py --output extension_results.json` to check the four cut-vertex kernels, the Burnside counts for all eight kernels, the theta comparison and the first-order convergence coefficients. The program compares canonical representatives with fixed-point counts and independently enumerates small connected loopless multigraphs. The committed `extension_results.json` contains the per-kernel counts and the exact script checksum.
 
+## Finite determination and sequence terms
+
+`python3 code/finite_counts.py --output finite_counts.json` prints the values which, with the independent degree and period bound in the paper, determine the twelve polynomial constituents. The table comes from direct enumeration of positive length vectors and is cross-checked against the binomial sums and the displayed polynomials. The script also checks the simple-subdivision counts and the witness example, and computes the aggregate isomorphism counts U(1) through U(60) using Burnside's formula. Those orbit counts are compared with explicit canonical representatives through L = 20.
+
 ## Coverage
 
 | Check | Scope |
