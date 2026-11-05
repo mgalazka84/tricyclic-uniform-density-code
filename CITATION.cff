@@ -1,7 +1,7 @@
 cff-version: 1.2.0
 message: "Please cite this software and the exact commit used to reproduce a computation."
 type: software
-title: "Uniformly dense tricyclic subdivisions: counts and certificates — verification code"
+title: "Uniformly dense tricyclic graphs: subdivision counts and certificates — verification code"
 authors:
   - family-names: "Gałązka"
     given-names: "Marek"

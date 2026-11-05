@@ -1,4 +1,4 @@
-# Uniformly dense tricyclic subdivisions: counts and certificates
+# Uniformly dense tricyclic graphs: subdivision counts and certificates
 
 Exact computational checks accompanying the manuscript by Marek Gałązka and Hanna Wdowicka.
 
