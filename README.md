@@ -2,7 +2,7 @@
 
 Exact computational checks accompanying the manuscript by Marek Gałązka and Hanna Wdowicka.
 
-The code implements a linear-time recognition algorithm with density and obstruction certificates, checks the corank-three density criterion, and derives twelve explicit polynomials counting positive labelled subdivision lengths for four tricyclic kernels. The criterion is a consequence of matroid duality; it is not claimed here as an independent new structural theorem. Finite verification supplements the proofs and does not establish mathematical priority.
+The code implements a linear-time recognition algorithm with density and obstruction certificates, checks the corank-three density criterion, and derives twelve explicit polynomials counting positive labelled subdivision lengths for four tricyclic kernels. The criterion is a consequence of matroid duality; it is not claimed here as an independent new structural theorem. Finite verification supplements the proofs.
 
 ## Run
 
@@ -25,6 +25,10 @@ python3 code/derive_quasipolynomials.py
 This expands the exact bounded-composition sums over rational coefficients and uses the binomial-basis summation identity. It does not fit polynomials to subdivision counts. For each kernel, the three coefficient lists correspond to `L = 3q + epsilon`, with `epsilon = 0, 1, 2` and `q >= 1`; coefficients are in ascending powers of `q`. Counts at `L = 1, 2` are zero.
 
 The committed `verification_results.json` is an executed reference run. Its mathematical records are deterministic; `elapsed_seconds` depends on the machine. `source_sha256_by_file` identifies both exact scripts, while `source_sha256` retains the main script checksum.
+
+## Cut vertices and isomorphism classes
+
+Run `python3 code/verify_extensions.py --output extension_results.json` to check the four cut-vertex kernels, the Burnside counts for all eight kernels, the theta comparison and the first-order convergence coefficients. The program compares canonical representatives with fixed-point counts and independently enumerates small connected loopless multigraphs. The committed `extension_results.json` contains the per-kernel counts and the exact script checksum.
 
 ## Coverage
 
